@@ -121,21 +121,43 @@ section#contact-area {
     background: #fff;
     color: black;
 }
-/* .call-box {
-    display: flex;
-    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
-    justify-content: center;
-}.call-info {
-    width: 900px;
-    background-image: url(images/watch.png);
-    height: 200px;
-    background-size: cover;
-    background-position: center;
-}.call-info h2 {
+/* Footer section style */
+footer#main-footer {
+    background-color: #242B2E;
     color: #fff;
-    font-size: 30px;
-    width: 370px;
+}
+.footer-info {
+    width: 45%;
+    padding: 10px;
+}
+
+.footer-btn {
+    width: 45%;
+}
+
+.footer-items {
+    justify-content: space-between;
+}
+.links span {
+    font-size: 35px;
+    margin-left: 8px;
+}
+.footer-info p {
+    padding: 10px 0;
+    color: darkgray;
+}input.subscribe {
+    border: 1px solid #fff;
     padding: 20px;
-}.call-info a {
-    margin-left: 20px;
-} */
+    width: 215px;
+    border-radius: 10px;
+    background-color: #242B2E;
+}.footer-btn {
+    width: 25%;
+}
+.footer-btn h1 {
+    padding: 15px 0;
+}
+.footer-btn a {
+    background-color: rebeccapurple;
+    margin-top: 10px;
+}
