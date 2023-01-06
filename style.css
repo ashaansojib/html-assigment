@@ -69,3 +69,19 @@ header#main-header {
     color: #727272;
     padding: 5px 0;
 }
+/* Planning Area Style */
+.plan-item{
+    width: 250px;
+}.plan-box {
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    text-align: center;
+}h1.section-title {
+    text-align: center;
+    padding: 20px;
+    font-size: 3em;
+}
+.plan-item img {
+    width: 40%;
+}
