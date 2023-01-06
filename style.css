@@ -26,6 +26,9 @@ a.btn-primary {
     background-color: #FF6666;
     border-radius: 13px;
 }
+main#main-content {
+    padding: 50px 0;
+}
 /* Start Here Header Area Style */
 header#main-header {
     height: 450px;
@@ -46,4 +49,23 @@ header#main-header {
 }.head-info p {
     color: #2a2828;
     padding: 12px 0;
+}
+/* About Area Style */
+.about-items {
+    justify-content: space-between;
+    align-items: center;
+}.about-info {
+    width: 450px;
+    padding: 10px;
+}.about-image {
+    height: 500px;
+}.about-info h1 {
+    font-size: 35px;
+}.about-info p {
+    font-size: 18px;
+}ul.work-list {
+    list-style: none;
+}ul.work-list li {
+    color: #727272;
+    padding: 5px 0;
 }
