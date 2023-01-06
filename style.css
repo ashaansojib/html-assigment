@@ -161,3 +161,16 @@ footer#main-footer {
     background-color: rebeccapurple;
     margin-top: 10px;
 }
+/* Meet The Team Area Css */
+.teams {
+    width: 250px;
+}.team-person {
+    justify-content: space-between;
+    align-items: center;
+}
+section#team-area {
+    padding: 30px 0;
+}
+.teams img {
+    border-radius: 115px;
+}
