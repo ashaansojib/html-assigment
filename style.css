@@ -74,6 +74,7 @@ header#main-header {
     width: 250px;
 }.plan-box {
     justify-content: center;
+    border-bottom: 1px solid #dddd;
     align-items: center;
     height: 250px;
     text-align: center;
@@ -164,7 +165,10 @@ footer#main-footer {
 /* Meet The Team Area Css */
 .teams {
     width: 250px;
-}.team-person {
+    padding: 10px;
+    text-align: center;
+}
+.team-person {
     justify-content: space-between;
     align-items: center;
 }
@@ -173,4 +177,9 @@ section#team-area {
 }
 .teams img {
     border-radius: 115px;
+    width: 170px;
+}
+h2.team-title {
+    font-size: 30px;
+    color: darkblue;
 }
